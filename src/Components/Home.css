@@ -1,0 +1,66 @@
+ #intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    /* margin: 0 auto; */
+    /* overflow: hidden;
+    position: relative; */
+
+} 
+
+body{
+    background-color: rgb(2, 2, 50);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.bg {
+    
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 40vpx;
+    width: 360px;
+    padding: 150px 270px;
+
+    
+}
+
+
+.introContent{
+    height: 70vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+}
+
+.hello{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: yellow;
+}
+
+.introPara{
+    font-weight: 300;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background: white;
+    margin: 1ren 0;
+    padding: .75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
