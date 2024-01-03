@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abey-portfolio/static/css/main.eeb0f717.css",
-    "main.js": "/abey-portfolio/static/js/main.626bba97.js",
+    "main.js": "/abey-portfolio/static/js/main.daab1a28.js",
     "static/js/787.b389d525.chunk.js": "/abey-portfolio/static/js/787.b389d525.chunk.js",
     "static/media/background.jpg": "/abey-portfolio/static/media/background.ba50e16c4a61724ffce0.jpg",
     "static/media/UMBC.jpg": "/abey-portfolio/static/media/UMBC.17673fae96499ecfbdf9.jpg",
@@ -10,11 +10,11 @@
     "static/media/Saintgits.jpg": "/abey-portfolio/static/media/Saintgits.83abaef9365591e1b894.jpg",
     "index.html": "/abey-portfolio/index.html",
     "main.eeb0f717.css.map": "/abey-portfolio/static/css/main.eeb0f717.css.map",
-    "main.626bba97.js.map": "/abey-portfolio/static/js/main.626bba97.js.map",
+    "main.daab1a28.js.map": "/abey-portfolio/static/js/main.daab1a28.js.map",
     "787.b389d525.chunk.js.map": "/abey-portfolio/static/js/787.b389d525.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb0f717.css",
-    "static/js/main.626bba97.js"
+    "static/js/main.daab1a28.js"
   ]
 }
