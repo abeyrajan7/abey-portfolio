@@ -21,17 +21,17 @@ const NavBar = () => {
         :setToggleIcon("nav__toggler")
     };
     return(
-      <div style={{height: "100vh"}}>
-        <Router>
+      <Router>
+        <div style={{height: "100vh"}}>
           <nav className="nav">
               <li><Link  className="nav_link,\ nav__brand" to="#">ABeY</Link></li>
               <ul className={active}>
-                <li className='nav__item'><Link className="nav_link"  to="/home">Home</Link></li>
+                <li className='nav__item'><Link className="nav_link"  to="/">Home</Link></li>
                 <li className='nav__item'><Link className="nav_link"  to="/education">Education</Link></li>
-                {/* <li className='nav__item'><Link className="nav_link"  to="/experience">Experience</Link></li>
+                <li className='nav__item'><Link className="nav_link"  to="/experience">Experience</Link></li>
                 <li className='nav__item'><Link className="nav_link"  to="/technical-skills">Technical Skills</Link></li>
                 <li className='nav__item'><Link className="nav_link"  to="/certifications">Certifications</Link></li>
-                <li className='nav__item'><Link className="nav_link"  to="/achievements">Achievements</Link></li> */}
+                <li className='nav__item'><Link className="nav_link"  to="/achievements">Achievements</Link></li>
               </ul>
               <div onClick={navToggle} className={toggleIcon}>
                 <div className='line1'></div>
@@ -41,16 +41,15 @@ const NavBar = () => {
         </nav>
 
         <Routes>
-            <Route path="/home" element={<Home/>} />
-            <Route path="/education" element={<Education/>} />
-            <Route path="/Experience" element={<Experience/>} />
-            <Route path="/technical-skills" element={<TechnicalSkills/>} />
-            <Route path="/certifications" element={<Certifications/>} />
-            <Route path="/achievements" element={<Achievements/>} />
-          </Routes>
-        </Router> 
+          <Route path="/" element={<Home/>} />
+          <Route path="/education" element={<Education/>} />
+          <Route path="/Experience" element={<Experience/>} />
+          <Route path="/technical-skills" element={<TechnicalSkills/>} />
+          <Route path="/certifications" element={<Certifications/>} />
+          <Route path="/achievements" element={<Achievements/>} />
+        </Routes> 
       </div>
-
+    </Router>
     );
 
 }
