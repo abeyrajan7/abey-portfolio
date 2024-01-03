@@ -26,7 +26,7 @@ const NavBar = () => {
           <nav className="nav">
               <li><Link  className="nav_link,\ nav__brand" to="#">ABeY</Link></li>
               <ul className={active}>
-                <li className='nav__item'><Link className="nav_link"  to="/">Home</Link></li>
+                <li className='nav__item'><Link className="nav_link"  to="/home">Home</Link></li>
                 <li className='nav__item'><Link className="nav_link"  to="/education">Education</Link></li>
                 {/* <li className='nav__item'><Link className="nav_link"  to="/experience">Experience</Link></li>
                 <li className='nav__item'><Link className="nav_link"  to="/technical-skills">Technical Skills</Link></li>
@@ -40,8 +40,8 @@ const NavBar = () => {
               </div>
         </nav>
 
-          <Routes>
-            <Route path="/" element={<Home/>} />
+        <Routes>
+            <Route path="" element={<Home/>} />
             <Route path="/education" element={<Education/>} />
             <Route path="/Experience" element={<Experience/>} />
             <Route path="/technical-skills" element={<TechnicalSkills/>} />
