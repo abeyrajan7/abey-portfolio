@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/abey-portfolio/static/css/main.eeb0f717.css",
-    "main.js": "/abey-portfolio/static/js/main.ebaa35e4.js",
+    "main.css": "/abey-portfolio/static/css/main.b4552db6.css",
+    "main.js": "/abey-portfolio/static/js/main.190d9b61.js",
     "static/js/787.b389d525.chunk.js": "/abey-portfolio/static/js/787.b389d525.chunk.js",
-    "static/media/background.jpg": "/abey-portfolio/static/media/background.ba50e16c4a61724ffce0.jpg",
+    "static/media/Background-4.jpg": "/abey-portfolio/static/media/Background-4.65d39ca286e2a3c7eb64.jpg",
+    "static/media/background.jpg": "/abey-portfolio/static/media/background.2317aa3d6b6f756d52b0.jpg",
     "static/media/UMBC.jpg": "/abey-portfolio/static/media/UMBC.17673fae96499ecfbdf9.jpg",
     "static/media/Girideepam.jpg": "/abey-portfolio/static/media/Girideepam.389e630a3f6450cea6a0.jpg",
     "static/media/Abey.jpeg": "/abey-portfolio/static/media/Abey.d5f462e683080463ea61.jpeg",
     "static/media/Saintgits.jpg": "/abey-portfolio/static/media/Saintgits.83abaef9365591e1b894.jpg",
     "index.html": "/abey-portfolio/index.html",
-    "main.eeb0f717.css.map": "/abey-portfolio/static/css/main.eeb0f717.css.map",
-    "main.ebaa35e4.js.map": "/abey-portfolio/static/js/main.ebaa35e4.js.map",
+    "main.b4552db6.css.map": "/abey-portfolio/static/css/main.b4552db6.css.map",
+    "main.190d9b61.js.map": "/abey-portfolio/static/js/main.190d9b61.js.map",
     "787.b389d525.chunk.js.map": "/abey-portfolio/static/js/787.b389d525.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb0f717.css",
-    "static/js/main.ebaa35e4.js"
+    "static/css/main.b4552db6.css",
+    "static/js/main.190d9b61.js"
   ]
 }
