@@ -15,36 +15,24 @@ body{
     overflow-y: scroll;
 }
 
-.bg {
-    
-    position: absolute;
-    top: 6rem;
-    right: 0;
-    z-index: -1;
-    object-fit: cover;
-    height: 40vpx;
-    width: 360px;
-    padding: 150px 270px;
-
-    
-}
-
-
 .introContent{
-    height: 70vh;
-    width: 100vw;
+    height: 100vh;
+    width: 112%;
     padding: 2rem;
     font-size: 5rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20%;
+    padding-left: 10%;
+    background-color: rgba(20, 231, 231, 0.5);
+    backdrop-filter: blur(-100px);
 }
 
 .hello{
     font-size: 4rem;
     font-weight: 100;
+    color: aqua;
 }
 
 .introName{
@@ -55,12 +43,46 @@ body{
     font-weight: 300;
     font-size: medium;
     letter-spacing: 1px;
+    color: rgb(190, 166, 166);
 }
 
-.btn {
-    background: white;
+/* .btn {
+    background: rgb(14, 8, 80);
     margin: 1ren 0;
     padding: .75rem 2rem;
     border: none;
     border-radius: 2rem;
+} */
+
+.in{
+    /* background-color: black; */
+    background-image: url('../Assets/Background-4.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.bg {
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    /* z-index: -1; */
+
+    object-fit: cover;
+    height: 40vpx;
+    width: 360px;
+    /* padding: 150px 270px; */
+    margin-left: 150px;
+    background-color: rgba(20, 231, 231, 0.5);
+    backdrop-filter: blur(-100px);
+
+}
+
+.custom-position { 
+    position: absolute; 
+    top: 53%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+  } 
+  

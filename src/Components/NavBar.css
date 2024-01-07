@@ -17,12 +17,13 @@ a{
     color: darkgray;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 8vh;
     background: rgb(0, 0, 0);
+
 }
 .nav__brand {
     color: rgb(26, 225, 26);
@@ -31,8 +32,13 @@ a{
     
 }
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 .nav__item{
+    text-decoration: none;
     position: relative;
     transition: all .4s;
 }
