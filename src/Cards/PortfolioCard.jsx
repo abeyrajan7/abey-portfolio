@@ -12,11 +12,11 @@ const PortfolioCard = ({title, imageUrl, body}) => {
         </div>
       </div>
       <div className="card-body text-dark">
-        <h4 className="card-title">Card Title</h4>
+        <h4 className="card-title">{title}</h4>
         <p className="card-text text-secondary">
           {body}
         </p>
-        <a href="#" className="btn btn-outline-success">More Details</a>
+        {/* <a href="#" className="btn btn-outline-success">More Details</a> */}
       </div>
 
     </div>
