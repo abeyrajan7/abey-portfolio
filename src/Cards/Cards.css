@@ -1,0 +1,10 @@
+.education-main-page{
+    background-image: url('../Assets/background.jpg');;
+    height: 80rem;
+}
+
+@media screen and (max-width: 668px) {
+    .institutes-card {
+        display:list-item;
+    }
+}

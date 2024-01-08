@@ -1,26 +1,31 @@
-import React from "react";
-import './Card.css'
+import React from 'react';
+import './Card.css';
 
-import { Card, Container, Row, Col } from 'react-bootstrap';
+const PortfolioCard = ({ title, imageUrl, body, showMore, toggleShowMore }) => {
+  const truncatedBody = showMore ? body : body.substring(0, 250) + '...';
+  const cardHeight = showMore ? '64.6rem' : '48rem';
 
-const PortfolioCard = ({title, imageUrl, body}) => {
-    return(
-    <div className="card text-center">
-      <div alt="institute image" className="overflow">
+  return (
+    <div className="card text-center" style={{ height: cardHeight }}>
+      <div className="overflow">
         <div className="inner">
-        <img src={imageUrl} alt="Image 1" className="card-img-top img"/>
+          <img src={imageUrl} alt="Image 1" className="card-img-top img" />
         </div>
       </div>
       <div className="card-body text-dark">
         <h4 className="card-title">{title}</h4>
         <p className="card-text text-secondary">
-          {body}
+          <h6>{truncatedBody}</h6>
         </p>
-        {/* <a href="#" className="btn btn-outline-success">More Details</a> */}
+        <button
+          className="btn btn-outline-success"
+          onClick={toggleShowMore}
+        >
+          {showMore ? 'Show less' : 'Show more'}
+        </button>
       </div>
-
     </div>
-    );
-}
+  );
+};
 
 export default PortfolioCard;
